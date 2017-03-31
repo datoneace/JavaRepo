@@ -1,0 +1,12 @@
+package examples;
+
+public class NumbersDial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int creditDays = 30;
+		JOptionPane.showMessageDialog(null, ""+ creditDays);
+		JOptionPane.showMessageDial(null, "Every bill is due " + creditDays + " days. ");
+	}
+
+}

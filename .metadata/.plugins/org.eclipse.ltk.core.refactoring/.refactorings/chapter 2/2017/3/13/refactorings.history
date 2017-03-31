@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;gameZone.MadLibs.main().inputDevice&apos; in &apos;gameZone.MadLibs.main()&apos; to field&#x0D;&#x0A;- Original project: &apos;chapter 2&apos;&#x0D;&#x0A;- Original element: &apos;gameZone.MadLibs.main().inputDevice&apos;&#x0D;&#x0A;- Field name: &apos;inputDevice&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;&#x0D;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;inputDevice&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;gameZone{MadLibs.java" name="inputDevice" selection="303 36" stamp="1490982338881" static="true" version="1.0" visibility="2"/>
+</session>
