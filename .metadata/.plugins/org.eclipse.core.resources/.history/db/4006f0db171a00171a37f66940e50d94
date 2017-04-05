@@ -1,0 +1,23 @@
+package excercises;
+import java.util.Scanner; 
+public class Initials {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int first;
+		int second;
+		int third;
+		Scanner inputDevice = new Scanner(System.in);
+		
+		System.out.println("what is your first initial>>> ");
+		first = inputDevice.nextInt(); 
+		System.out.println("what is your second initial>>> ");
+		second = inputDevice.nextInt(); 
+		System.out.println("what is your third initial>>> ");
+		third = inputDevice.nextInt();  
+		System.out.println("Your initials are " + first + ". " + second + ". " + third + ".");
+		 
+	}
+
+}

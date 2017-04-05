@@ -1,0 +1,25 @@
+package excercises;
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+public class Initials {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		char first;
+		char second;
+		char third;
+		Scanner inputDevice = new Scanner(System.in);
+		
+		System.out.println("what is your first initial>>> ");
+		first = (char) inputDevice.nextInt(); 
+		System.out.println("whatLine is your second initial>>> ");
+		second = (char) inputDevice.nextInt(); 
+		System.out.println("what is your third initial>>> ");
+		third = (char) inputDevice.nextInt();  
+		System.out.println("Your initials are " + first + ". " + second + ". " + third + ".");
+		
+	}
+
+}
