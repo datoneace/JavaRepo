@@ -1,6 +1,6 @@
-package excercises;
+package excersises;
 
-public class Eggs {
+public class Precentages {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
