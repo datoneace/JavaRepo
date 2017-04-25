@@ -1,0 +1,55 @@
+package excersises;
+
+import java.util.Scanner;
+
+public class Pay {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int hours;
+		int skill;
+		int insurance;
+		double pay;
+		int overtimehours;
+		double overtime;
+		int hoursleft;
+		int hourspay;
+		
+		Scanner input = new Scanner(System.in); 
+		
+		System.out.print("How many hours have you worked? ");
+		hours = input.nextInt();
+		System.out.print("What is your skill Level? 1, 2, or 3. >> ");
+		skill = input.nextInt();
+		if (skill == 1)
+		{
+			if (hours >= 40)
+			{
+				overtimehours = hours - 40;
+				overtime = overtimehours * 25.5; 
+				hoursleft = hours - overtimehours;
+				hourspay = hoursleft * 17;
+				pay = overtime + hourspay; 
+				System.out.print("your pay is " + hourspay + " for regualr hours, and " + overtime + " for overtime. For a total of" 
+						+ pay);
+			}
+			if (hours <= 40)
+			{
+				pay = hours * 17;
+			}
+		
+			
+		}
+		if (skill == 2)
+		{
+			
+		}
+		if (skill == 3)
+		{
+			
+		}
+	}
+
+	
+}
