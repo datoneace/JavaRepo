@@ -2,39 +2,6 @@ package excersises;
 
 import java.util.Scanner;
 
-
-//PLAN A- 
-//Call =  >500
-//Text 0
-//Data 0 
-//
-//PLAN B-
-//Call =  >500
-//Text - any
-//Data 0
-//
-//PLAN c-
-//Call =  < 500
-//Text - 100
-//Data 0
-//
-//PLAN D-
-//Call =  <500
-//Text - more than 100 
-//Data 0
-//
-//PLAN E-
-//Call =  500
-//Text - any
-//Data any 2 gigs 
-//
-//PLAN F-
-//Call =  <500
-//Text - any
-//Data- more than 2 gigs 
-
-
-
 public class CellPhoneService {
 
 	public static void main(String[] args) {

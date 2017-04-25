@@ -2,39 +2,6 @@ package excersises;
 
 import java.util.Scanner;
 
-
-//PLAN A- 
-//Call =  >500
-//Text 0
-//Data 0 
-//
-//PLAN B-
-//Call =  >500
-//Text - any
-//Data 0
-//
-//PLAN c-
-//Call =  < 500
-//Text - 100
-//Data 0
-//
-//PLAN D-
-//Call =  <500
-//Text - more than 100 
-//Data 0
-//
-//PLAN E-
-//Call =  500
-//Text - any
-//Data any 2 gigs 
-//
-//PLAN F-
-//Call =  <500
-//Text - any
-//Data- more than 2 gigs 
-
-
-
 public class CellPhoneService {
 
 	public static void main(String[] args) {
@@ -49,7 +16,7 @@ public class CellPhoneService {
 		System.out.print("How many min of calling do you want? ");
 		min = input.nextInt();
 		
-		if (min <= 500)
+		if (min >= 500)
 		{
 			System.out.print("Do you want texting? 1 for yes and 2 for no>> ");
 			text = input.nextInt();
@@ -64,7 +31,7 @@ public class CellPhoneService {
 			}
 			
 		}
-		if (min >= 500)
+		if (min <= 500)
 		{
 			System.out.print("Do you want more than 100 texts? 1 for yes 2 for no.  ");
 			text = input.nextInt();
