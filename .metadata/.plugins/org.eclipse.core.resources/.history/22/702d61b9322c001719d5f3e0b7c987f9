@@ -1,0 +1,61 @@
+package GameZone;
+
+import java.util.Scanner;
+
+public class Quiz {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);  
+		
+		int answer1;
+		int answer2;
+		
+		
+		System.out.println("Welcome to the Pop Culture quiz. Let's Begin. ");
+		 System.out.println("Question 1: Who is the oldest of the Kardashian sisters? ");
+		 
+		 System.out.println("type 1 for kim, 2 for kourtney, 3 for khloe, and 4 for kylie.  ");
+		 answer1 = input.nextInt();
+		
+		 	if (answer1 == 1)
+		 {
+			 System.out.println("Wrong. The correct answer was 2, Kourtney ");
+		 }
+		 	if (answer1 == 2)
+		 {
+			 System.out.println("Correct, Kourtney is the oldest Kardashian sister. ");
+		 }
+		 	if (answer1 == 3)
+		 {
+			 System.out.println("Wrong. The correct answer was 2, Kourtney ");
+		 }
+		 	if (answer1 == 4)
+		 {
+			 System.out.println("Wrong. The correct answer was 2, Kourtney ");
+		 }
+		 
+		System.out.println("Question 2: Who played Bruce Wayne in 1989 Tim Burton's Batman? ");
+		 
+		 System.out.println("type 1 for Adam West, 2 for Christan Bale, 3 for Jack Nicholson, and 4 for Micheal Keaton.  ");
+		 answer1 = input.nextInt();
+		
+		 if (answer1 == 1)
+		 {
+			 System.out.println("Wrong. The correct answer was 4 Micheal Keaton  ");
+		 }
+		 if (answer1 == 2)
+		 {
+			 System.out.println("Wrong. The correct answer was 4 Micheal Keaton  ");
+		 }
+		 if (answer1 == 3)
+		 {
+			 System.out.println("Wrong. The correct answer was 4 Micheal Keaton ");
+		 }
+		 if (answer1 == 4)
+		 {
+			 System.out.println("Correct, Micheal Keaton played Bruce Wayne in 1989 Tim Burton's Batman? ");
+		 }
+	}
+
+}

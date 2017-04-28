@@ -30,6 +30,15 @@ public class RandomGuessMatch {
 		guess = Integer.parseInt(guessString);
 		isMatch = guess == random; 
 		
+		if (guess > random)
+		{
+			JOptionPane.showMessageDialog(null, "Your guess was too high");
+		}
+		if (guess < random)
+		{
+			JOptionPane.showMessageDialog(null, "Your guess was too low");
+		}
+		
 		
 		JOptionPane.showMessageDialog(null, "Your guess was " + (random-guess) + " number away from the random number.");
 		JOptionPane.showMessageDialog(null, "Your number was " + random + ". The result is " + isMatch + ".");
