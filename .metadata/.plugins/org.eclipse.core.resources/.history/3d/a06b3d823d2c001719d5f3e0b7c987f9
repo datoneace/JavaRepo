@@ -45,13 +45,13 @@ public class TestScoresStatistics {
               System.out.println("Invalid entry, not counted");
                  
              }
-            if (testScore >= highest)
+            if (testScore > highest)
             {
          	   highest = testScore;
          	   System.out.println("Highest number is: " + highest); 
             }
             
-            if (lowest <= testScore)
+            if (lowest < testScore)
             {
          	 lowest = testScore; 
          	   System.out.println("Lowest number is: " + lowest); 
