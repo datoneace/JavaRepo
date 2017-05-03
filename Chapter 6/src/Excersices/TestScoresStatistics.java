@@ -13,6 +13,7 @@ public class TestScoresStatistics {
         System.out.println(); 
 
         Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); 
         
         String choice = "y";
 //Integer.MIN_VALUE
@@ -23,8 +24,9 @@ public class TestScoresStatistics {
             int scoreTotal = 0;
             int scoreCount = 0;
             int testScore = 0;
-            int highest = 0;
-            int lowest = 0;
+            int large = 0;
+            int smallest = 0;
+            int num;
             
             System.out.println("Enter the number of test score to be entered: ");
             int numberOfTestScores = sc.nextInt();
@@ -45,17 +47,16 @@ public class TestScoresStatistics {
               System.out.println("Invalid entry, not counted");
                  
              }
-            if (testScore >= highest)
-            {
-         	   highest = testScore;
-         	   System.out.println("Highest number is: " + highest); 
-            }
-            
-            if (lowest <= testScore)
-            {
-         	 lowest = testScore; 
-         	   System.out.println("Lowest number is: " + lowest); 
-            }
+            for (int i = 2; i < n; i++) {
+                num = input.nextInt();
+                //comparing each time entered number with large one
+                if (num > large) {
+                    large = num;
+                }
+                //comparing each time entered number with smallest one
+                if (num < smallest) {
+                    smallest = num;
+                }
            
              System.out.println( "Score count:   " + scoreCount );
              System.out.println();
